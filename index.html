@@ -1,63 +1,51 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <!--Hint: avoid decorative punctuation marks in <title> tags -->
-    <title>HTML Antipatterns Never Do These Things</title>
-    <!--Hint: Don't add extra space around `=` signs in attribute-value pairs-->
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
-    <link rel="stylesheet" href="css/screen.css"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=none" />
+    <meta charset="utf-8" />
+    <title>Ibrahim Tomiwa Home</title>
   </head>
   <body>
     <header id="header">
-      <h1><a href="http://example.com/index.html" rel="home">HTML Antipatterns</a></h1>
+      <h1>Ibrahim Tomiwa</h1>
       <nav id="navigation">
-        <!--Hint: Match navigation labels with memorable paths/URLs-->
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="../resume/index.html">Resume</a></li>
-          <li><a href="../randomstuff/index.html">Interests</a></li>
+          <li>Home</li>
+          <li><a href="../resume">Resume</a></li>
+          <li><a href="../hobbies">Hobbies</a></li>
         </ul>
       </nav>
     </header>
-    <!--Hint: Watch for duplicate and non-semantic classes and IDs-->
-    <main id="home">
-      <article id="primary" class="green-background">
-        <h2><b>About Me</b></h2>
-        <h3><i>3rd-Year ITM Undergraduate</i></h3>
-        <h4>Majoring in Cybersecurity</h4>
-        <!--Hint: Hard-wrap lines of text longer than 80–100 characters-->
+    <main id="content">
+      <article>
+        <h2>About Me</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-          ullamcorper risus eget magna suscipit, in blandit mauris aliquam.
-          Donec ac elementum libero. Maecenas sit amet leo iaculis, pulvinar
-          magna non, tristique justo. Sed iaculis odio nec suscipit malesuada.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          I am a first year Computer Science major at Illinois Institute of Technology
+          with plans of going deeper into cybersecuirity and web developement. I was good
+          in maths during high school which helped in my SAT and admission into IIT. Prior
+          coming to IIT I wanted to study maths but it was very limiting so I started
+          learning programming some months before entering IIT. I am from Nigeria, where I
+          learnt everything I now know and I am from a family of 6 with 2 brothers,  a sister
+          and my parents.
         </p>
       </article>
-      <!--Hint: Watch formatting, spacing, and tag completeness-->
-      <article id="my-dog">
-        <h2>Look at this awesome dog!</h2>
-        <figure>
-          <img src="C:\Users\Tomiwa\Pictures\Camera%20Roll\AAH28hE[1]" alt="Photo of Hank"/>
-          <figcaption>
-            Hank hanging out on the couch &amp; being chill.
-          </figcaption>
-        </figure>
-      </article>
     </main>
-    <article id="supporting">
-      <h2 class="bay">Facts About Me</h2>
-      <!--Hint: Don't repeat classes on all inner elements that share a common parent-->
-      <p><b>Quick Facts:</b></p>
-      <ul class="quick-facts">
-        <!-- Hint: Close up spaces between content and HTML tags on the same line-->
-        <li>Interested in cybersecurity</li>
-        <li>Hate cold winters</li>
-        <li>Always running late</li>
-      </ul>
-    </article>
     <footer id="footer">
+      <ul class="contact">
+        <li class="email">
+          <a
+        href="mailto:tibrahim@hawk.iit.edu">Email-Work</a>
+        </li>
+        <li class="facebook-url">
+          <a href="https://www.facebook.com/tomiwa.ibrahim.311">Facebook</a>
+        </li>
+        <li class="twitter-url">
+          <a href="https://twitter.com/Tomiwa154">Twitter</a>
+        </li>
+        <li class="instagram-url">
+          <a href="https://www.instagram.com/tomiwa.ibrahim.311/">Instagram</a>
+        </li>
+      </ul>
       <p>Site &copy; Ibrahim Tomiwa. All rights reserved.</p>
     </footer>
   </body>
