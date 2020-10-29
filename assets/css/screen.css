@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* @import url('//basehold.it/25'); */
+@import url('//basehold.it/29');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -16,4 +16,10 @@ td, article, aside, canvas, details, embed, figure, figcaption, footer, header, 
 	font: inherit;
   text-decoration: none;
 	vertical-align: baseline;
+}
+/* Start screen style */
+html{
+	font-family: 'Amiri', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
+	font-size: 16px;
+	line-height: 29px;
 }
