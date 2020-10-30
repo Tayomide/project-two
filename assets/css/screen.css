@@ -52,6 +52,12 @@ h1{
 h2{
 	font-size: 28.43px;/* Two steps higher on modular scale*/
 }
+h3{
+	font-size: 21.328px;
+}
+h4{
+	font-weight: 600;
+}
 p{
 	padding-bottom: 29px;
 }
