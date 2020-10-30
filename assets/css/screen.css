@@ -40,34 +40,34 @@ table {
  */
 html{
 	font-family: 'Amiri', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
-	font-size: 16px;
-	line-height: 29px;
-	padding: 14.5px 14.5px 14.5px 14.5px;
+	font-size: 1em;/* 16/16(default) = 1em */
+	line-height: 1.8125em;/* 29/16(The new fontsize although mine is the same) = 1.8125em*/
+	padding: 0.90625em 0.90625em 0.90625em 0.90625em;/* 14.5/16 = 0.90625em*/
 }
 h1{
-	font-size: 37.897px;/*Three steps higher on modular scale*/
-	line-height: 29px;/*same as 29px*/
-	padding-bottom:29px;
+	font-size: 2.3685625em;/*Three steps higher on modular scale*//* 37.897/16(not default  font size) = 2.3685625em*/
+	line-height: 0.765232076em;/*same as 29px*//* 29/37.897(new font size) = */
+	padding-bottom:0.765232076em;
 }
 h2{
-	font-size: 28.43px;/* Two steps higher on modular scale*/
+	font-size: 1.776875em;/* Two steps higher on modular scale*//* 28.43/16 = */
 }
 h3{
-	font-size: 21.328px;
+	font-size: 1.333em;/* 21.328/16 */
 }
 h4{
 	font-weight: 600;
 }
 p{
-	padding-bottom: 29px;
+	padding-bottom: 1.8125em;/* 29/16 = 1.8125em*/
 }
 ul{
-	padding-bottom: 14.5px;
+	padding-bottom: 0.90625em;/* 14.5/16 = 0.90625em*/
 	list-style: disc;
-	margin-left: 14.5px;
+	margin-left: 0.90625em;/* 14.5/16 = 0.90625em*/
 }
 li{
-	padding-bottom: 14.5px;
+	padding-bottom: 0.90625em;/* 14.5/16 = 0.90625em*/
 }
 ul ul,
 ul ul li{
