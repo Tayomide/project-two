@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('//basehold.it/29');
+/* @import url('//basehold.it/29'); */
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -83,14 +83,30 @@ ul ul{
 }
 .nav a{
 	background-color: #C0F8D1;
+	color: #925E78;
+	padding: 16px;
+	display: block;
+}
+.nav a:hover{
+	background-color: #91F3AE;
 }
 .nav li{
+	padding-bottom: 8px;
 	list-style: none;
+}
+.nav{
+	margin-left: 0;
 }
 /* more responsive with media query */
 @media screen and (min-width: 430px) {
 	html{
 		padding: 0.90625em 15% 0.90625em 15%/* 14.5/16 = 0.90625em*/
+	}
+	.nav li{
+		/* display:inline-block; */
+		float: left;
+		width: 33.3333333%;
+		text-align: center;
 	}
 }
 @media screen and (min-width: 600px) {
