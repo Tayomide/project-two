@@ -22,4 +22,21 @@ html{
 	font-family: 'Amiri', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
 	font-size: 16px;
 	line-height: 29px;
+	padding: 14.5px;
+}
+h1{
+	padding-bottom:29px;
+}
+p{
+	padding-bottom: 29px;
+}
+ul{
+	padding-bottom: 14.5px:
+}
+li{
+	padding-bottom: 14.5px;
+}
+ul ul,
+ul ul li{
+	padding-bottom: 0;
 }
