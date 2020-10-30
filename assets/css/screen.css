@@ -45,12 +45,12 @@ html{
 	padding: 14.5px 14.5px 14.5px 14.5px;
 }
 h1{
-	font-size: 51.53px;/*Two steps higher on modular scale*/
-	line-height: 43.5px;/*one and a half times 29px*/
+	font-size: 37.897px;/*Three steps higher on modular scale*/
+	line-height: 29px;/*same as 29px*/
 	padding-bottom:29px;
 }
 h2{
-	font-size: 38.657px;
+	font-size: 28.43px;/* Two steps higher on modular scale*/
 }
 p{
 	padding-bottom: 29px;
