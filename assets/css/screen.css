@@ -33,6 +33,11 @@ table {
 	border-spacing: 0;
 }
 /* Start screen style */
+
+/*
+  Setting type according to a 3:4 (Major Third) Modular Scale:
+	https://www.modularscale.com/?29&px&1.333
+ */
 html{
 	font-family: 'Amiri', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
 	font-size: 16px;
@@ -40,6 +45,8 @@ html{
 	padding: 14.5px 14.5px 14.5px 14.5px;
 }
 h1{
+	font-size: 51.53px;
+	line-height: 43.5px;
 	padding-bottom:29px;
 }
 p{
