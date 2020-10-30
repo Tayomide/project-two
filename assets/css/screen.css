@@ -43,6 +43,7 @@ html{
 	font-size: 1em;/* 16/16(default) = 1em */
 	line-height: 1.8125em;/* 29/16(The new fontsize although mine is the same) = 1.8125em*/
 	padding: 0.90625em 0.90625em 0.90625em 0.90625em;/* 14.5/16 = 0.90625em*/
+	background-color: #C6CAED;
 }
 h1{
 	font-size: 2.3685625em;/*Three steps higher on modular scale*//* 37.897/16(not default  font size) = 2.3685625em*/
@@ -80,7 +81,12 @@ ul ul li{
 ul ul{
 	list-style: circle;
 }
-
+.nav a{
+	background-color: #C0F8D1;
+}
+.nav li{
+	list-style: none;
+}
 /* more responsive with media query */
 @media screen and (min-width: 430px) {
 	html{
@@ -102,3 +108,4 @@ ul ul{
 		padding: 0.90625em 35% 0.90625em 35%/* 14.5/16 = 0.90625em*/
 	}
 }
+/* C0F8D1 */
