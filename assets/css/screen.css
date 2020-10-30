@@ -17,12 +17,27 @@ td, article, aside, canvas, details, embed, figure, figcaption, footer, header, 
   text-decoration: none;
 	vertical-align: baseline;
 }
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 /* Start screen style */
 html{
 	font-family: 'Amiri', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
 	font-size: 16px;
 	line-height: 29px;
-	padding: 14.5px;
+	padding: 14.5px 14.5px 14.5px 14.5px;
 }
 h1{
 	padding-bottom:29px;
