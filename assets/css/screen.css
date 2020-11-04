@@ -34,7 +34,7 @@ table {
 	https://www.modularscale.com/?29&px&1.333
  */
 html {
-  font-family: 'Amiri', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
+  font-family: Amiri, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   font-size: 1em;/* 16/16(default) = 1em */
   line-height: 1.8125em;/* 29/16(The new fontsize although mine is the same) = 1.8125em*/
   padding: 0.90625em 0.90625em 0.90625em 0.90625em;/* 14.5/16 = 0.90625em*/
@@ -43,7 +43,7 @@ html {
 h1 {
   font-size: 2.3685625em;/*Three steps higher on modular scale*//* 37.897/16(not default  font size) = 2.3685625em*/
   line-height: 0.765232076em;/*same as 29px*//* 29/37.897(new font size) = */
-  padding-bottom:0.765232076em;
+  padding-bottom: 0.765232076em;
   text-align: center;
 }
 h2 {
@@ -58,7 +58,7 @@ h4 {
 p {
   padding-bottom: 1.8125em;/* 29/16 = 1.8125em*/
 }
-p+p {
+p + p {
   text-indent: 1.8125em;/* 29/16 = 1.8125em*/
 }
 ul {
@@ -69,6 +69,12 @@ ul {
 li {
   padding-bottom: 0.90625em;/* 14.5/16 = 0.90625em*/
 }
+footer li {
+  list-style: none;
+  float: left;
+  padding-left: 0.3125em;/*5/16 = 0.3125em*/
+  padding-bottom: 0;
+}
 ul ul, ul ul li {
   padding-bottom: 0;
 }
@@ -78,24 +84,18 @@ ul ul {
 .nav a {
   background-color: #C0F8D1;
   color: #925E78;
-  padding: 16px;
+  padding: 1em;/* 16/16 = 1em */
   display: block;
 }
 .nav a:hover {
   background-color: #91F3AE;
 }
 .nav li {
-  padding-bottom: 8px;
+  padding-bottom: 0.5em;/* 8/16 = 0.5em */
   list-style: none;
 }
 .nav {
   margin-left: 0;
-}
-footer li {
-  list-style: none;
-  float: left;
-  padding-left: 5px;
-  padding-bottom: 0;
 }
 footer ul {
   padding-bottom: 0;
@@ -109,15 +109,15 @@ footer ul::after {
 footer {
   position: relative;
 }
-footer ul {
+/* footer ul {
   right: 0;
-}
+} */
 footer img {
-  max-width: 29px;
-  border-radius: 14.5px;
+  max-width: 1.6125em;/* 29/16 = 1.8125em*/
+  border-radius: 0.90625em;/*14.5/16 = 0.90625em*/
 }
 /* more responsive with media query */
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 26.875em) {/*430/16 = 26.875em */
   html {
     padding: 0.90625em 15% 0.90625em 15%/* 14.5/16 = 0.90625em*/
   }
@@ -128,23 +128,22 @@ footer img {
     float: none;
   }
   .nav li {
-		/* display:inline-block; */
     float: left;
     width: 33.3333333%;
     text-align: center;
-	}
+  }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 37.5em) {/* 600/16 = 37.5em */
   html {
     padding: 0.90625em 23% 0.90625em 23%/* 14.5/16 = 0.90625em*/
   }
 }
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 46.25em) {/*740/16 = 46.25em */
   html {
     padding: 0.90625em 28% 0.90625em 28%/* 14.5/16 = 0.90625em*/
   }
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 60em) {/*960/16 = 60em */
   html {
     padding: 0.90625em 35% 0.90625em 35%/* 14.5/16 = 0.90625em*/
   }
